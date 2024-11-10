@@ -1,14 +1,11 @@
-import org.w3c.dom.ls.LSOutput;
-
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
 import java.util.Optional;
-import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class PaymentData {
-    enum PERIODIC {
+    private enum PERIODIC {
         MONTHLY,
         QUATERLY,
         YEARLY
