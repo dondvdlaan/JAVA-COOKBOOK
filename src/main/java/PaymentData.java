@@ -9,7 +9,6 @@ public class PaymentData {
         MONTHLY,
         QUATERLY,
         YEARLY
-
     }
 
     BigDecimal periodicPayment;
